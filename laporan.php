@@ -51,7 +51,7 @@ $abc = $kon->kueri("SELECT * FROM tb_cems1 ORDER BY id DESC");
 
                           <!-- Form -->
                           <div class="card-body">
-                            <form method="get" action="reportexcel.php" class="d-flex flex-column align-items-start w-100">
+                            <form method="get" action="reportexcelaq.php" class="d-flex flex-column align-items-start w-100">
                               <!-- Filter Start Date and Time -->
                               <div class="w-100 text-center">
                                 <label for="filterStartDate" class="text-center w-100">Start</label>
@@ -160,7 +160,7 @@ $abc = $kon->kueri("SELECT * FROM tb_cems1 ORDER BY id DESC");
 
                           <!-- Form -->
                           <div class="card-body">
-                            <form method="get" action="cetak1.php" class="d-flex flex-column align-items-start w-100">
+                            <form method="get" action="reportexcelcems.php" class="d-flex flex-column align-items-start w-100">
                               <!-- Filter Start Date and Time -->
                               <div class="w-100 text-center">
                                 <label for="filterStartDate" class="text-center w-100">Start</label>
